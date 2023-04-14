@@ -1,0 +1,47 @@
+name: lottery
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  timezone: ^0.9.1
+  shared_preferences: ^2.0.20
+  firebase_core: ^2.8.0
+  firebase_auth: ^4.3.0
+  cloud_firestore: ^4.4.5
+  crypto: ^3.0.2
+  flutter_datetime_picker: ^1.5.1
+  flutter_localizations:
+    sdk: flutter
+  camera: ^0.10.3+2
+  path_provider: ^2.0.14
+  image: ^4.0.15
+  flutter_typeahead: ^4.3.7
+  flutter_sequence_animation: ^4.0.0
+  flare_flutter: ^3.0.2
+  animated_dialog: ^1.0.6
+  flutter_charts: ^0.5.1
+  charts_flutter: ^0.12.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  assets:
+    - assets/images/
+
+  uses-material-design: true
+
+
